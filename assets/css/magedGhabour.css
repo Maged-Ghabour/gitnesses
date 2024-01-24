@@ -1,0 +1,54 @@
+/* Start Global Variables for using RTL Theme */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+/* End  Global Variables for using RTL Theme */
+
+:root{
+  --primary_color:#28216F;
+}
+
+body{
+  font-family: 'cairo', Helvetica, sans-serif !important;
+}
+p{
+  font-family: 'cairo', Helvetica, sans-serif !important;
+
+}
+
+h6,
+.home-banner-area .banner-content h1{
+  font-family: 'cairo', Helvetica, sans-serif !important;
+
+}
+
+.main-nav .navbar .navbar-nav .nav-item a.active{
+  color: var(--primary_color);
+}
+
+.primary-btn{
+  background-color: var(--primary_color);
+}
+.go-top{
+  background-color: var(--primary_color);
+}
+
+.social-link a{
+
+  background-color: var(--primary_color);
+
+}
+
+.promo-service-section .item-single i{
+  color: var(--primary_color);
+}
+
+.about-section .about-content h2 span{
+  color: var(--primary_color);
+}
+
+.about-section .about-content .content-list i{
+  color: var(--primary_color);
+}
+
+.services-section .owl-carousel .owl-dots .owl-dot.active{
+  background-color: var(--primary_color);
+}
