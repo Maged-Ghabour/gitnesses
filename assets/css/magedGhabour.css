@@ -1,54 +1,119 @@
 /* Start Global Variables for using RTL Theme */
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
 /* End  Global Variables for using RTL Theme */
 
-:root{
-  --primary_color:#28216F;
+:root {
+  --primary_color: #28216f;
 }
 
-body{
-  font-family: 'cairo', Helvetica, sans-serif !important;
+body {
+  font-family: "cairo", Helvetica, sans-serif !important;
 }
-p{
-  font-family: 'cairo', Helvetica, sans-serif !important;
-
+p {
+  font-family: "cairo", Helvetica, sans-serif !important;
 }
 
 h6,
-.home-banner-area .banner-content h1{
-  font-family: 'cairo', Helvetica, sans-serif !important;
-
+.home-banner-area .banner-content h1 {
+  font-family: "cairo", Helvetica, sans-serif !important;
 }
 
-.main-nav .navbar .navbar-nav .nav-item a.active{
+.main-nav .navbar .navbar-nav .nav-item a.active {
   color: var(--primary_color);
 }
 
-.primary-btn{
+.primary-btn {
   background-color: var(--primary_color);
 }
-.go-top{
+.go-top {
   background-color: var(--primary_color);
 }
 
-.social-link a{
-
+.social-link a {
   background-color: var(--primary_color);
-
 }
 
-.promo-service-section .item-single i{
+.promo-service-section .item-single i {
   color: var(--primary_color);
 }
 
-.about-section .about-content h2 span{
+.about-section .about-content h2 span {
   color: var(--primary_color);
 }
 
-.about-section .about-content .content-list i{
+.about-section .about-content .content-list i {
   color: var(--primary_color);
 }
 
-.services-section .owl-carousel .owl-dots .owl-dot.active{
+.services-section .owl-carousel .owl-dots .owl-dot.active {
   background-color: var(--primary_color);
+}
+
+.search-box .search-form .btn-search {
+  background-color: var(--primary_color);
+  border: 1px solid var(--primary_color);
+}
+
+.contact-section .top-content .info-list i {
+  color: var(--primary_color);
+}
+
+.services-section .item-single:hover .content a {
+  color: var(--primary_color);
+}
+.services-section .item-single:hover .content {
+  border-bottom: 1px solid var(--primary_color);
+}
+.home-banner-area .banner-content .video-btn i {
+  color: var(--primary_color);
+}
+.main-nav .navbar .navbar-nav .nav-item a:hover {
+  color: var(--primary_color);
+}
+
+.projects-section .item-single .content {
+  background-color: #27216fb2;
+}
+
+.testimonials-section
+  .testimonial-slider
+  .owl-item.firstactiveitem
+  .slider-item
+  .content
+  .quote
+  i {
+  color: var(--primary_color);
+}
+
+.footer-area .copy-right-area .copy-right-content a {
+  color: #5c4dfc;
+}
+.switch-box input:checked + .slider,
+.switch-box .slider {
+  border: 1.5px solid var(--primary_color);
+}
+
+.main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a:hover {
+  color: var(--primary_color);
+}
+
+.main-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+  border-top: 2px solid var(--primary_color);
+}
+.header-area .header-top .quick-links .nav-item .nav-link:hover {
+  color: #b6afff;
+}
+
+#preloader > div {
+  background-color: var(--primary_color);
+}
+
+/* Dark theme */
+.theme-dark .main-navbar-area .main-nav nav .navbar-nav .nav-item a.active {
+  color: #b6afff !important;
+}
+
+.footer-area .footer-links li a:hover,
+.footer-area .footer-links li i {
+  color: #b6afff;
 }
