@@ -9,13 +9,30 @@
 body {
   font-family: "cairo", Helvetica, sans-serif !important;
 }
-p {
+p,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn-text {
   font-family: "cairo", Helvetica, sans-serif !important;
 }
 
 h6,
 .home-banner-area .banner-content h1 {
   font-family: "cairo", Helvetica, sans-serif !important;
+}
+
+a:hover {
+  color: var(--primary_color);
 }
 
 .main-nav .navbar .navbar-nav .nav-item a.active {
@@ -116,4 +133,118 @@ h6,
 .footer-area .footer-links li a:hover,
 .footer-area .footer-links li i {
   color: #b6afff;
+}
+
+.whatsapp-icon {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  z-index: 8;
+}
+
+/* WhatsApp Icon */
+.btn-whatsapp-pulse {
+  /*width:60px;*/
+  /*height:60px;*/
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 8;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  height: 0;
+  padding: 35px;
+  text-decoration: none;
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+@media (max-width: 768px) {
+  .whatsapp-icon {
+    bottom: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .btn-whatsapp-pulse {
+    padding: 25px;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
+.btn-whatsapp-pulse:hover {
+  color: #fff;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  80% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+}
+
+/* clock counter */
+
+.side-option .item .btn-search i {
+  color: #fff;
+}
+
+.side-option .item .language a {
+  color: #fff;
+}
+
+.side-option .item .language .menu .menu-item .menu-link {
+  color: #06121c;
+}
+
+@media (max-width: 1200px) {
+  .header-right .side-option {
+    display: none;
+  }
+}
+
+.header-area .header-top {
+  display: flex;
+  justify-content: center;
+  min-height: 47px;
+}
+
+.search-box {
+  border: 1px solid var(--primary_color);
+}
+
+.contact-section .top-content .info-list a:hover {
+  color: var(--primary_color);
+}
+
+.go-top.active {
+  left: auto;
+  right: 3%;
+}
+.promo-service-section .item-single {
+  text-align: center;
+}
+
+footer iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* color of navmenu in small screen */
+.main-responsive-nav
+  .main-responsive-menu.mean-container
+  .mean-nav
+  ul
+  li
+  a.active {
+  color: var(--primary_color);
 }
